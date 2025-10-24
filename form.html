@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Get method example</h2>
+    <form action="https://httpbin.org/get" method="get">
+        <label>Name:</label>
+        <input type="text" name="username" placeholder="Enter your name"><br>
+        <!-- <label>file</label>
+        <input type="file" name="file"><br> -->
+         <label>age:</label>
+        <input type="number"name="age"><br>
+        <button type="submit">submit</button>
+ </form>
+ <h2>Post method example</h2>
+ <form action="https://httpbin.org/post" method="post">
+    <label>Email:</label>
+    <input type="email" name="email" placeholder="Enter email"><br>
+    <label>Password:</label>
+    <input type="password" name="password" placeholder="Enter password"><br>
+    <button type="submit">Login</button>
+    </form>
+    <h2>form with action not with url</h2>
+<form action="/submit" method="get" autocomplete="on" novalidate>
+        <label>Name:</label>
+        <input type="text" name="username" placeholder="Enter your name"><br>
+        <!-- <label>file</label>
+        <input type="file" name="file"><br> -->
+         <label>age:</label>
+        <input type="number"name="age"><br>
+        <button type="submit">submit</button>
+ </form>
+ <h2>form submit without giving action</h2>
+ <form method="get">
+        <label>Name:</label>
+        <input type="text" name="username" placeholder="Enter your name"><br>
+        <!-- <label>file</label>
+        <input type="file" name="file"><br> -->
+         <label>age:</label>
+        <input type="number"name="age"><br>
+        <button type="submit">submit</button>
+ </form>
+ </body>
+</html>
